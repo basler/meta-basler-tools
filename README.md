@@ -1,9 +1,10 @@
-OpenEmbedded/Yocto BSP layer for Basler tools
-=============================================
+OpenEmbedded/Yocto layer for Basler tools
+=========================================
 
 This layer contains SoC independent tools to operate Basler cameras,
 namely pylon and pypylon.
 
-To operate U2V and GigE cameras this is the only layer you need.
+To operate U3V and GigE cameras this is the only layer that is needed.
 
-For the dart BCON for Mipi cameras you need a SoC specific support layer.
+For the dart BCON for Mipi cameras an additional SoC specific support layer is 
+needed. 
