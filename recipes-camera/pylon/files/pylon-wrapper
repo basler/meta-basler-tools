@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#set GenTL path if it is not yet set
+if [ -z $GENICAM_GENTL64_PATH ]; then
+    export GENICAM_GENTL64_PATH=/opt/dart-bcon-mipi/lib
+fi
+exec /opt/pylon/bin/pylonviewer "${@}"
