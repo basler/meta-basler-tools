@@ -17,18 +17,18 @@ SRC_URI[sha256sum] = "e652c29b687a4cdb256860a1738f6d21f86a44ef0466f62df1051e0114
 
 
 
-RDEPENDS_${PN} = "fontconfig freetype libsm libdrm libxcb-glx"
+RDEPENDS:${PN} = "fontconfig freetype libsm libdrm libxcb-glx"
 
-RRECOMMENDS_${PN} = "xauth python3-pypylon"
+RRECOMMENDS:${PN} = "xauth python3-pypylon"
 
-FILES_${PN} += "/opt/ /usr/bin/pylon"
+FILES:${PN} += "/opt/ /usr/bin/pylon"
 
-INSANE_SKIP_${PN} += "already-stripped"
-INSANE_SKIP_${PN} += "dev-so"
-INSANE_SKIP_${PN} += "dev-elf"
+INSANE_SKIP:${PN} += "already-stripped"
+INSANE_SKIP:${PN} += "dev-so"
+INSANE_SKIP:${PN} += "dev-elf"
 
 # Work around for RDEPENDS to avoid 'no libGL.so.1()(64bit) provider found' problem
-SKIP_FILEDEPS_${PN} = "1"
+SKIP_FILEDEPS:${PN} = "1"
 
 # Without this option yocto checks every .so included in pylon and treats it as possible RPROVIDES.
 # This lead to spurious dependencies of gstreamer packages on pylon.
@@ -37,7 +37,7 @@ EXCLUDE_FROM_SHLIBS = "1"
 # We want the complete pylon inside the sysroot to be able to build against it
 SYSROOT_DIRS = "/opt"
 
-PACKAGES_${PN} = "${PN}"
+PACKAGES:${PN} = "${PN}"
 
 
 python check_basler_eula() {
