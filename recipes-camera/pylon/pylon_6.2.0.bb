@@ -11,6 +11,7 @@ PYLON_FILE_NAME="pylon_6.2.0.21487_aarch64.selfsh"
 
 SRC_URI = "https://artifacts.baslerweb.com/artifactory/embedded-vision-public/packages/${BPN}/${PYLON_FILE_NAME} \
            file://pylon-wrapper \
+           file://patches/01-fix-cpp20-in-headers.patch \
 "
 SRC_URI[md5sum] = "88710973fd2562fc7a6c2402c54334ac"
 SRC_URI[sha256sum] = "e652c29b687a4cdb256860a1738f6d21f86a44ef0466f62df1051e011443cf67"

@@ -1,0 +1,11 @@
+--- ./pylon/include/pylon/Callback.h
++++ ./pylon/include/pylon/Callback.h
+@@ -47,7 +47,7 @@
+     {
+     public:
+         //! destructor
+-        virtual ~Base_Callback1Body<P1>( void )
++        virtual ~Base_Callback1Body( void )
+         {
+         };
+ 
