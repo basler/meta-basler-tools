@@ -1,0 +1,3 @@
+require ${PN}.inc
+
+SRCREV = "ac4e0c29314109b1ffd97039a8a5167225fe2239"
