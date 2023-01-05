@@ -7,9 +7,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=ae3b821cf6c4b42fabeceeafd1df5f95"
 
 
 SRCBRANCH = "main"
-SRC_URI = "git://github.com/basler/gst-plugin-pylon.git;protocol=https;branch=${SRCBRANCH} \
-           file://0001-backport-to-meson-0.51.patch \
-           "
+SRC_URI = "git://github.com/basler/gst-plugin-pylon.git;protocol=https;branch=${SRCBRANCH}"
 
 
 S = "${WORKDIR}/git"
