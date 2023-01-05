@@ -8,7 +8,7 @@ PR = "r0"
 inherit setuptools3
 
 # Github source drive
-SRC_URI = "git://github.com/basler/pypylon.git;protocol=https"
+SRC_URI = "git://github.com/basler/pypylon.git;protocol=https;nobranch=1"
 SRCREV = "2bd0a6268dd5dd36a0aa8486c7158ffc0166abbc"
 S = "${WORKDIR}/git"
 
