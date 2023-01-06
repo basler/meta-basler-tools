@@ -1,6 +1,6 @@
 SUMMARY = "Basler pylon Camera Software Suite"
 DESCRIPTION = "A software package comprised of an easy-to-use SDK and tools that you can use to operate any Basler camera."
-LICENSE = "Basler-pylon-6.2 & LGPLv3 & LGPLv2.1 & BSD-3-Clause & BSD-2-Clause & bzip2 & Libpng & Zlib & GenICam-1.1 & NI & xxHash & Apache-2.0"
+LICENSE = "Basler-pylon-6.2 & LGPL-3.0-only & LGPL-2.1-or-later & LGPL-2.1-only & BSD-3-Clause & BSD-2-Clause & bzip2 & Libpng & Zlib & GenICam-1.1 & NI & xxHash & Apache-2.0"
 LIC_FILES_CHKSUM = "file://pylon/share/pylon/licenses/License.html;md5=6a23d6496f15e590f32b3d3954297683 \
                     file://pylon/share/pylon/licenses/pylon_Third-Party_Licenses.html;md5=3ed299ffc665be3cebd634d25a41de80"
 
