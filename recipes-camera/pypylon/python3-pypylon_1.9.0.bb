@@ -9,7 +9,7 @@ inherit setuptools3
 
 # Github source drive
 SRC_URI = "git://github.com/basler/pypylon.git;protocol=https;nobranch=1"
-SRCREV = "2bd0a6268dd5dd36a0aa8486c7158ffc0166abbc"
+SRCREV = "c2a78fffffe2beab4d072c9a71bf53fac2a9c034"
 S = "${WORKDIR}/git"
 
 DEPENDS = "pylon python3 swig-native python3-setuptools-native"
